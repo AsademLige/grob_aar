@@ -1,0 +1,40 @@
+name: grob_aar
+description: A new Flutter project.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.12.0-0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  flutter_svg: ^1.0.3
+  image_cropper: ^3.0.1
+  ar_flutter_plugin:
+    path: ../plugins/ar_plugin/
+  ar_scene_manager:
+    path: ../plugins/ar_scene_manager
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.6
+  dotted_border: ^2.0.0+3
+  flutter_tts: ^3.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/music/
+    - assets/models/roses/
+    - assets/models/coffins/
+    - assets/models/wreath/
+    - assets/models/frame/
+    - assets/scenes/
+  uses-material-design: true
